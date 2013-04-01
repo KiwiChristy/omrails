@@ -9,7 +9,26 @@ $navbarBackground: white;
 @import 'bootstrap';
 
 body {
-	padding-top: 60px
+    padding-top: 60px;
+    height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main{
+	overflow:auto;
+	padding-bottom: 150px;
+}
+
+.footer {
+	background-color: $gray;
+	margin-top: 100px;
+	color: $grayLight;
+	a {
+		color: gray;
+	}
 }
 
 @import 'bootstrap-responsive';
@@ -19,10 +38,3 @@ body {
 	border: 0;
 }
 
-.footer {
-	margin-top: 50px;
-	color: $grayLight;
-	a {
-		color: gray;
-	}
-}
