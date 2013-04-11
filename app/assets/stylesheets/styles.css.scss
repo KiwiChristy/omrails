@@ -10,25 +10,6 @@ $navbarBackground: white;
 
 body {
     padding-top: 60px;
-    height: 100%;
-}
-
-#wrap {
-	min-height: 100%;
-}
-
-#main{
-	overflow:auto;
-	padding-bottom: 150px;
-}
-
-.footer {
-	background-color: $gray;
-	margin-top: 100px;
-	color: $grayLight;
-	a {
-		color: gray;
-	}
 }
 
 @import 'bootstrap-responsive';
@@ -38,3 +19,38 @@ body {
 	border: 0;
 }
 
+/* For fixed-bottom navbar */
+
+.wrap {
+	margin-top: 60px;
+	color: $grayLight;
+	a {
+		color: gray;
+	}
+}
+
+/* Required for JQuery Masonry */
+
+.box {
+	margin: 5px;
+	padding: 5px;
+	font-size: 11px;
+	line-height: 1.4em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #444;
+	width: 214px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.description {
+	margin: 10px 0 5px;
+}
